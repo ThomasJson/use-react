@@ -9,7 +9,7 @@ const Banner = () => {
     <div className="banner">
       <Header />
       <Description />
-      <Cart />
+      <Cart price={"Calcul en cours"}/>
     </div>
   );
 };
