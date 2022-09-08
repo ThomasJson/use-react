@@ -1,47 +1,76 @@
 export const plantList = [
 	{
-		name: 'monstera',
+		id: 1,
+		name: 'Purple Kush',
 		category: 'classique',
-		id: '1ed'
+		description: '',
+		image:'',
+		isBestSale: true
 	},
 	{
-		name: 'ficus lyrata',
+		id: 2,
+		name: 'Amnesia',
 		category: 'classique',
-		id: '2ab'
+		description: '',
+		image:'',
+		isBestSale: true
+
 	},
 	{
-		name: 'pothos argenté',
+		id: 3,
+		name: 'Buddha Kush',
 		category: 'classique',
-		id: '3sd'
+		description: '',
+		image:'',
+		isBestSale: false
+
 	},
 	{
-		name: 'yucca',
+		id: 4,
+		name: 'Ivory',
 		category: 'classique',
-		id: '4kk'
+		description: '',
+		image:'',
+		isBestSale: false
 	},
 	{
-		name: 'olivier',
+		id: 5,
+		name: 'Sour Diesel',
 		category: 'extérieur',
-		id: '5pl'
+		description: '',
+		image:'',
+		isBestSale: false
 	},
 	{
-		name: 'géranium',
+		id: 6,
+		name: 'White Widow',
 		category: 'extérieur',
-		id: '6uo'
+		description: '',
+		image:'',
+		isBestSale: true
 	},
 	{
-		name: 'basilique',
+		id: 7,
+		name: 'Jack Herer',
 		category: 'extérieur',
-		id: '7ie'
+		description: '',
+		image:'',
+		isBestSale: false
 	},
 	{
-		name: 'aloe',
-		category: 'plante grasse',
-		id: '8fp'
+		id: 8,
+		name: 'Orange Bud',
+		category: 'intérieur',
+		description: '',
+		image:'',
+		isBestSale: false
 	},
-	{
-		name: 'succulente',
-		category: 'plante grasse',
-		id: '9vn'
+	{   
+		id: 9,
+		name: 'AK-47',
+		category: 'intérieur',
+		description: '',
+		image:'',
+		isBestSale: false
 	}
 ]
