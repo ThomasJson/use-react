@@ -28,12 +28,6 @@ const CategoryList = () => {
           </li>
         ))}
       </ul>
-
-      {/* <ul>
-        {plantList.map((plant) => (
-          <li key={plant.id}>{plant.name}</li>
-        ))}
-      </ul> */}
     </div>
   );
 };
