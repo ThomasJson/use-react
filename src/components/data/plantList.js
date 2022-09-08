@@ -3,17 +3,19 @@ export const plantList = [
 		id: 1,
 		name: 'Purple Kush',
 		category: 'classique',
-		description: '',
-		image:'',
-		isBestSale: true
+		description: 'C est dla bonne frr',
+		image:'./assets/img/purple.jpeg',
+		isBestSale: true,
+		price: 8
 	},
 	{
 		id: 2,
 		name: 'Amnesia',
 		category: 'classique',
-		description: '',
-		image:'',
-		isBestSale: true
+		description: 'La base',
+		image:'./assets/img/amne.jpeg',
+		isBestSale: true,
+		price: 10
 
 	},
 	{
@@ -22,7 +24,8 @@ export const plantList = [
 		category: 'classique',
 		description: '',
 		image:'',
-		isBestSale: false
+		isBestSale: false,
+		price: 8
 
 	},
 	{
@@ -31,7 +34,8 @@ export const plantList = [
 		category: 'classique',
 		description: '',
 		image:'',
-		isBestSale: false
+		isBestSale: false,
+		price: 13
 	},
 	{
 		id: 5,
@@ -39,15 +43,17 @@ export const plantList = [
 		category: 'extérieur',
 		description: '',
 		image:'',
-		isBestSale: false
+		isBestSale: false,
+		price: 9
 	},
 	{
 		id: 6,
 		name: 'White Widow',
 		category: 'extérieur',
-		description: '',
-		image:'',
-		isBestSale: true
+		description: 'Pas pour les fragiles',
+		image:'./assets/img/rose.jpg',
+		isBestSale: true,
+		price: 15
 	},
 	{
 		id: 7,
@@ -55,7 +61,8 @@ export const plantList = [
 		category: 'extérieur',
 		description: '',
 		image:'',
-		isBestSale: false
+		isBestSale: false,
+		price: 6
 	},
 	{
 		id: 8,
@@ -63,7 +70,8 @@ export const plantList = [
 		category: 'intérieur',
 		description: '',
 		image:'',
-		isBestSale: false
+		isBestSale: false,
+		price: 10
 	},
 	{   
 		id: 9,
@@ -71,6 +79,7 @@ export const plantList = [
 		category: 'intérieur',
 		description: '',
 		image:'',
-		isBestSale: false
+		isBestSale: false,
+		price: 12
 	}
 ]

@@ -11,7 +11,7 @@ const ProductCard = ({ title, price, description, image }) => {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
-          <Button variant="primary">{price}</Button>
+          <Button>{price}</Button>
         </Card.Body>
       </Card>
     </div>
