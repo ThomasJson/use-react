@@ -1,3 +1,17 @@
+.rOw {
+    display: flex;
+    flex-direction: row;
+}
+
+.coL {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-Evenly {
+    justify-content: space-evenly;
+}
+
 h1 {
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px !important;
 }

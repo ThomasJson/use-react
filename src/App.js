@@ -1,5 +1,6 @@
 import './App.scss';
 import HomeScreen from './screens/homeScreen/HomeScreen';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
