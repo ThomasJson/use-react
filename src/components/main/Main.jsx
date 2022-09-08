@@ -9,7 +9,8 @@ const Main = () => {
     <>
     <ShoppingList />
     <Container fluid id="product-Bloc">
-      <ul className="rOw justify-Evenly">
+      <h3>Les Bons Plans</h3>
+      <ul className="rOw justify-Evenly phare-product">
         <li>
           <Product
             title="Purple Kush"
