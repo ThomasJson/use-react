@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import './product.scss';
+import './productCard.scss';
 
-const Product = ({ title, price, description, image }) => {
+const ProductCard = ({ title, price, description, image }) => {
   return (
     <div>
       <Card className="card-style">
@@ -18,4 +18,4 @@ const Product = ({ title, price, description, image }) => {
   );
 };
 
-export default Product;
+export default ProductCard;
