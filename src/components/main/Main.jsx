@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Product from "../product/Product";
-import './main.scss';
+import "./main.scss";
 
 const Main = () => {
   return (
@@ -10,15 +10,26 @@ const Main = () => {
         <li>
           <Product
             title="Montsera"
-            price="8"
+            price="8 €"
             description="C'est dla bonne frère"
+            image="./assets/img/purple.jpeg"
           />
         </li>
         <li>
-          <Product title="Lierre" price="10" description="Mauvaise herbe" />
+          <Product
+            title="Lierre"
+            price="10 €"
+            description="Mauvaise herbe"
+            image="./assets/img/amne.jpeg"
+          />
         </li>
         <li>
-          <Product title="Fleurs" price="15" description="PD" />
+          <Product
+            title="Fleurs"
+            price="15 €"
+            description="PD"
+            image="./assets/img/rose.jpg"
+          />
         </li>
       </ul>
     </Container>
