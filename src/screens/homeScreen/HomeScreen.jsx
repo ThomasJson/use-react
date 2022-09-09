@@ -1,14 +1,15 @@
-import React from 'react';
-import Banner from '../../components/banner/Banner';
-import Main from '../../components/main/Main';
+import React from "react";
+import CategoryList from '../../components/categoryList/CategoryList';
+import BestSales from '../../components/bestSales/BestSales';
+import './homeScreen.scss';
 
 const HomeScreen = () => {
-    return (
-        <div>
-            <Banner />
-            <Main />
-        </div>
-    );
+  return (
+    <main>
+      <CategoryList />
+      <BestSales />
+    </main>
+  );
 };
 
 export default HomeScreen;
