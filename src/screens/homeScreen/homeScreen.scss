@@ -1,4 +1,8 @@
 main {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-color: #bbeea3;
   padding-top: 25px;
   padding-bottom: 25px;

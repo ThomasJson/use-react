@@ -1,9 +1,11 @@
-.category-List {
-  padding: 0px;
-  margin: 0;
+.cat-container {
+  display: flex;
+  justify-content: center;
 }
 
-// .dropdown-btn {
-//     display: flex !important;
-//     align-items: baseline !important;
-// }
+.category-List {
+  width: 50%;
+  padding: 20px 0px 20px 0px;
+  margin: 0px;
+  border: 1px solid black;
+}

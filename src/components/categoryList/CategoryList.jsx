@@ -12,7 +12,7 @@ const CategoryList = () => {
   );
 
   return (
-    <div>
+    <div className="cat-container">
       <ul className="rOw justify-Evenly category-List">
         {categories.map((cat) => (
           <li key={cat}>
