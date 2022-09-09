@@ -1,11 +1,11 @@
 import './App.scss';
-import HomeScreen from './screens/homeScreen/HomeScreen';
+import BaseScreen from './screens/baseScreen/BaseScreen';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     <div className="App">
-      <HomeScreen />
+      <BaseScreen />
     </div>
   );
 }

@@ -6,7 +6,7 @@ const Description = () => {
 
   return (
     <div>
-      <h2>{ emojis + text.slice(0,100) + emojis }</h2>
+      <h2>{emojis + text.slice(0, 100) + emojis}</h2>
     </div>
   );
 };
