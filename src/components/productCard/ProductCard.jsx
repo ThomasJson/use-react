@@ -1,13 +1,20 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import './productCard.scss';
+import { plantList } from "../data/plantList";
+import "./productCard.scss";
 
-const ProductCard = ({ title, price, description, image }) => {
+const ProductCard = ({ title, price, description, image, isSpecialOffer }) => {
+
+
   return (
     <div>
       <Card className="card-style">
         <Card.Img variant="top" src={image} />
+        
+        {/* {specialOffers.filter((el) => el.isSpecialOffer)}
+        <p className="soldes"></p> */}
+
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>

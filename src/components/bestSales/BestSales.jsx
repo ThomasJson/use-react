@@ -6,6 +6,7 @@ import "./bestSales.scss";
 
 const BestSales = () => {
   const bestSalesPlant = plantList.filter((plant) => plant.isBestSale === true);
+  
   return (
     <div>
       <Container fluid id="product-Bloc">
@@ -20,6 +21,7 @@ const BestSales = () => {
                   price={plant.price + "  €"}
                   description={plant.description}
                   image={plant.image}
+                  // isSpecialOffer={plant.isSpecialOffer}
                 />
               )}
             </li>

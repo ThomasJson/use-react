@@ -6,7 +6,8 @@ export const plantList = [
 		description: 'C est dla bonne frr',
 		image:'./assets/img/purple.jpeg',
 		isBestSale: true,
-		price: 8
+		price: 8,
+		isSpecialOffer: true
 	},
 	{
 		id: 2,
@@ -15,7 +16,8 @@ export const plantList = [
 		description: 'La base',
 		image:'./assets/img/amne.jpeg',
 		isBestSale: true,
-		price: 10
+		price: 10,
+		isSpecialOffer: false
 
 	},
 	{
@@ -25,7 +27,8 @@ export const plantList = [
 		description: '',
 		image:'',
 		isBestSale: false,
-		price: 8
+		price: 8,
+		isSpecialOffer: false
 
 	},
 	{
@@ -35,7 +38,8 @@ export const plantList = [
 		description: '',
 		image:'',
 		isBestSale: false,
-		price: 13
+		price: 13,
+		isSpecialOffer: false
 	},
 	{
 		id: 5,
@@ -44,16 +48,18 @@ export const plantList = [
 		description: '',
 		image:'',
 		isBestSale: false,
-		price: 9
+		price: 9,
+		isSpecialOffer: false
 	},
 	{
 		id: 6,
 		name: 'White Widow',
 		category: 'extérieur',
 		description: 'Pas pour les fragiles',
-		image:'./assets/img/rose.jpg',
+		image:'./assets/img/widow.jpeg',
 		isBestSale: true,
-		price: 15
+		price: 15,
+		isSpecialOffer: false
 	},
 	{
 		id: 7,
@@ -62,7 +68,8 @@ export const plantList = [
 		description: '',
 		image:'',
 		isBestSale: false,
-		price: 6
+		price: 6,
+		isSpecialOffer: false
 	},
 	{
 		id: 8,
@@ -71,7 +78,8 @@ export const plantList = [
 		description: '',
 		image:'',
 		isBestSale: false,
-		price: 10
+		price: 10,
+		isSpecialOffer: false
 	},
 	{   
 		id: 9,
@@ -80,6 +88,7 @@ export const plantList = [
 		description: '',
 		image:'',
 		isBestSale: false,
-		price: 12
+		price: 12,
+		isSpecialOffer: false
 	}
 ]
