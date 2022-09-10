@@ -2,15 +2,16 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { plantList } from "../data/plantList";
 import ProductCard from "../productCard/ProductCard";
+import DisplayOffer from "../specialOffer/DisplayOffer";
 import "./bestSales.scss";
 
 const BestSales = () => {
   const bestSalesPlant = plantList.filter((plant) => plant.isBestSale === true);
-
+  
   return (
     <Container fluid id="product-Bloc">
       <h3>Best Sales</h3>
-
+  
       <ul className="rOw justify-Evenly phare-product">
         {bestSalesPlant.map((plant) => (
           <li key={plant.id}>
@@ -20,7 +21,7 @@ const BestSales = () => {
                 price={plant.price + "  €"}
                 description={plant.description}
                 image={plant.image}
-                // isSpecialOffer={plant.isSpecialOffer}
+                isSpecialOffer={<DisplayOffer isSolded={plant.isSpecialOffer === true}/>}
               />
             )}
           </li>
