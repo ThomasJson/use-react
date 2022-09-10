@@ -22,6 +22,8 @@ const BestSales = () => {
                 description={plant.description}
                 image={plant.image}
                 isSpecialOffer={<DisplayOffer isSolded={plant.isSpecialOffer === true}/>}
+                light={plant.light}
+                water={plant.water}
               />
             )}
           </li>

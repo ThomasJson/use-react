@@ -9,7 +9,7 @@ const Banner = () => {
     <div className="banner">
       <Header />
       <Description />
-      <Cart articleN={2} />
+      <Cart />
     </div>
   );
 };
