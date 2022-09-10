@@ -8,6 +8,8 @@ export const plantList = [
     isBestSale: true,
     price: 8,
     isSpecialOffer: true,
+    water: 2,
+    light: 2
   },
   {
     id: 2,
@@ -18,6 +20,8 @@ export const plantList = [
     isBestSale: true,
     price: 10,
     isSpecialOffer: false,
+    water: 2,
+    light: 3
   },
   {
     id: 3,
@@ -58,6 +62,8 @@ export const plantList = [
     isBestSale: true,
     price: 15,
     isSpecialOffer: false,
+    water: 3,
+    light: 2
   },
   {
     id: 7,

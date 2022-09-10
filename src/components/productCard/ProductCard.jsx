@@ -2,10 +2,21 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import CareScale from "../careScale/CareScale";
 import "./productCard.scss";
 
-const ProductCard = ({ title, price, description, image, isSpecialOffer }) => {
-
+const ProductCard = ({
+  title,
+  price,
+  description,
+  image,
+  isSpecialOffer,
+  light,
+  water,
+}) => {
+  function handleClick() {
+    console.log("✨ Ceci est un clic ✨");
+  }
   return (
     <div>
       <Card className="card-style">
@@ -14,7 +25,9 @@ const ProductCard = ({ title, price, description, image, isSpecialOffer }) => {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
-          <Button>{price}</Button>
+          <CareScale careType="light" scaleValue={light} />
+          <CareScale careType="water" scaleValue={water} />
+          <Button onClick={handleClick}>{price}</Button>
         </Card.Body>
       </Card>
     </div>

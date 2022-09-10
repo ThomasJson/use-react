@@ -2,6 +2,11 @@ div.container-fluid {
     padding: 0;
 }
 
+p.card-text {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
 .rOw {
     display: flex;
     flex-direction: row;

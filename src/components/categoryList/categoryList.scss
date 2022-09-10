@@ -9,3 +9,7 @@
   margin: 0px;
   border: 1px solid black;
 }
+
+.dropdown-toggle::after {
+  display: none !important;
+}
