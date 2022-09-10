@@ -5,6 +5,8 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 import "./categoryList.scss";
 
 const CategoryList = () => {
+  // acc = "accumulateur" ;
+  
   const categories = plantList.reduce(
     (acc, plant) =>
       acc.includes(plant.category) ? acc : acc.concat(plant.category),
