@@ -4,8 +4,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import "./cart.scss";
 
-const Cart = () => {
-  const [cart, setCart] = useState(0);
+const Cart = ({itemsCount, price}) => {
 
   const [show, setShow] = useState(false);
 
@@ -30,7 +29,8 @@ const Cart = () => {
     <>
       <div className="cart">
         <FiShoppingCart onClick={handleShow} size={30} />
-        <div className="articles-number">{cart}</div>
+        <div className="articles-number">{itemsCount}</div>
+        <div>{price}</div>
       </div>
     </>
   );

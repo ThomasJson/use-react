@@ -2,7 +2,7 @@ export const plantList = [
   {
     id: 1,
     name: "Purple Kush",
-    category: "classique",
+    category: "La Frappe",
     description: "C est dla bonne frr",
     image: "./assets/img/purple.jpeg",
     isBestSale: true,
@@ -14,7 +14,7 @@ export const plantList = [
   {
     id: 2,
     name: "Amnesia",
-    category: "classique",
+    category: "La Frappe",
     description: "La base",
     image: "./assets/img/amne.jpeg",
     isBestSale: true,
@@ -26,7 +26,7 @@ export const plantList = [
   {
     id: 3,
     name: "Buddha Kush",
-    category: "classique",
+    category: "La Frappe",
     description: "",
     image: "",
     isBestSale: false,
@@ -36,7 +36,7 @@ export const plantList = [
   {
     id: 4,
     name: "Ivory",
-    category: "classique",
+    category: "La Frappe",
     description: "",
     image: "",
     isBestSale: false,
@@ -46,7 +46,7 @@ export const plantList = [
   {
     id: 5,
     name: "Sour Diesel",
-    category: "extérieur",
+    category: "Les Classiques",
     description: "",
     image: "",
     isBestSale: false,
@@ -56,7 +56,7 @@ export const plantList = [
   {
     id: 6,
     name: "White Widow",
-    category: "extérieur",
+    category: "Les Classiques",
     description: "Pas pour les fragiles",
     image: "./assets/img/widow.jpeg",
     isBestSale: true,
@@ -68,7 +68,7 @@ export const plantList = [
   {
     id: 7,
     name: "Jack Herer",
-    category: "extérieur",
+    category: "Les Classiques",
     description: "",
     image: "",
     isBestSale: false,
@@ -78,7 +78,7 @@ export const plantList = [
   {
     id: 8,
     name: "Orange Bud",
-    category: "intérieur",
+    category: "Les Bons Plans",
     description: "",
     image: "",
     isBestSale: false,
@@ -88,7 +88,7 @@ export const plantList = [
   {
     id: 9,
     name: "AK-47",
-    category: "intérieur",
+    category: "Les Bons Plans",
     description: "",
     image: "",
     isBestSale: false,
