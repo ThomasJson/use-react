@@ -13,12 +13,8 @@ const ProductCard = ({
   isSpecialOffer,
   light,
   water,
-  addToCart
+  onAdd
 }) => {
-
-  const handleAddToCartClick = () => {
-    addToCart(price);
-  }
 
   return (
     <div>
@@ -30,9 +26,7 @@ const ProductCard = ({
           <Card.Text>{description}</Card.Text>
           <CareScale careType="light" scaleValue={light} />
           <CareScale careType="water" scaleValue={water} />
-          <Button onClick={handleAddToCartClick}>
-            {price}
-          </Button>
+          <Button onClick={onAdd}>{price}</Button>
         </Card.Body>
       </Card>
     </div>

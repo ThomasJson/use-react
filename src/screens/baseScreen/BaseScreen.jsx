@@ -3,12 +3,12 @@ import Banner from "../../components/banner/Banner";
 import Footer from "../../components/footer/Footer";
 import HomeScreen from "../homeScreen/HomeScreen";
 
-const BaseScreen = ({itemsCount, price}) => {
+const BaseScreen = ({onAdd, cartCounter}) => {
 
   return (
     <div>
-      <Banner itemsCount={itemsCount} price={price} />
-      <HomeScreen />
+      <Banner onAdd={onAdd} cartCounter={cartCounter} />
+      <HomeScreen onAdd={onAdd}/>
       <Footer />
     </div>
   );
