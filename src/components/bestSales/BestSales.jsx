@@ -1,23 +1,12 @@
-import React, {useState} from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
 import { plantList } from "../data/plantList";
 import ProductCard from "../productCard/ProductCard";
 import DisplayOffer from "../specialOffer/DisplayOffer";
 import "./bestSales.scss";
 
-const BestSales = () => {
+const BestSales = ({onAdd}) => {
   const bestSalesPlant = plantList.filter((plant) => plant.isBestSale === true);
-  
-  const [itemsCount, setItemsCount] = useState(0);
-  const [price, setPrice] = useState(0);
-
-  const addToCart = (priceToAdd) => {
-
-    setItemsCount(itemsCount + 1);
-    const newPrice = price + + priceToAdd;
-    setPrice(newPrice);
-
-  }
 
   return (
     <Container fluid id="product-Bloc">
@@ -37,7 +26,7 @@ const BestSales = () => {
                 }
                 light={plant.light}
                 water={plant.water}
-                addToCart={addToCart}
+                onAdd={onAdd}
               />
             )}
           </li>
