@@ -4,12 +4,13 @@ import Description from "../description/Description";
 import Header from "../header/Header";
 import './banner.scss'
 
-const Banner = () => {
+const Banner = ({itemsCount, price}) => {
+
   return (
     <div className="banner">
       <Header />
       <Description />
-      <Cart />
+      <Cart itemsCount={itemsCount} price={price} />
     </div>
   );
 };

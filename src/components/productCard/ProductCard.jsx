@@ -13,10 +13,13 @@ const ProductCard = ({
   isSpecialOffer,
   light,
   water,
+  addToCart
 }) => {
-  function handleClick() {
-    console.log("✨ Ceci est un clic ✨");
+
+  const handleAddToCartClick = () => {
+    addToCart(price);
   }
+
   return (
     <div>
       <Card className="card-style">
@@ -27,7 +30,9 @@ const ProductCard = ({
           <Card.Text>{description}</Card.Text>
           <CareScale careType="light" scaleValue={light} />
           <CareScale careType="water" scaleValue={water} />
-          <Button onClick={handleClick}>{price}</Button>
+          <Button onClick={handleAddToCartClick}>
+            {price}
+          </Button>
         </Card.Body>
       </Card>
     </div>
